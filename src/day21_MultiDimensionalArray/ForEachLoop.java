@@ -1,0 +1,33 @@
+package day21_MultiDimensionalArray;
+
+import java.util.Arrays;
+
+public class ForEachLoop {
+    public static void main(String[] args) {
+        int nums [] = {1,2,3,4};
+        for (int eachElement:nums){
+            System.out.println(eachElement);
+        }
+        String [] students = {"Muhtar", "Asiya", "Murodil"};
+        for (String eachStudent : students){
+            System.out.println(eachStudent);
+        }
+        int [] arr1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        for (int each: arr1 ) {
+            if (each <= 5 ){
+                continue;
+            }
+            System.out.println(each);
+        }
+
+        String sentence = "I like Java";
+        String word [] = sentence.split(" ");
+        for (String eachWord : word){
+            System.out.println(eachWord);
+        }
+
+        for (int i = word.length-1; i >=0; i--){
+            System.out.println(word[i]);
+        }
+    }
+}
