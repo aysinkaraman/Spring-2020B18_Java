@@ -1,4 +1,4 @@
-package days23_Methods;
+package day23_Methods;
 
 public class MethodPractice {
     public static void main(String[] args) {
