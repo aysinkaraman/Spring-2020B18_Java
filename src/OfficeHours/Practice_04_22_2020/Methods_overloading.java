@@ -10,8 +10,9 @@ public class Methods_overloading {
     }
     public static void method1(int a, int b){
         System.out.println("Hello Batch 18");
-
+        System.out.println("Hello Batch 18 2");
     }
+
 
 
 }
