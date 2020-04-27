@@ -1,5 +1,6 @@
 package day28_DateTime;
 
+import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
@@ -12,5 +13,8 @@ public class TimeFormatting {
         System.out.println(time2.format(dtf));
         boolean result1 = time1.isAfter(time2);
         System.out.println(result1);
+        LocalDateTime dt = LocalDateTime.now();
+        System.out.println(dt);
+
     }
 }
